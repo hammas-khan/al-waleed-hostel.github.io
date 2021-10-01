@@ -42,7 +42,7 @@ html {
     text-decoration: none;
     color: white;
     font-size: 18px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana;
     transition: all 0.2s ease-in-out;
 }
 .navlist li a:hover {
@@ -53,7 +53,7 @@ html {
     color: rgb(11, 7, 27);
 }
 .background1{
-    background: fixed rgba(0, 0, 0, 0.6) url('../20210707_1ttt53428.jpg');
+    background: fixed rgba(0, 0, 0, 0.6) url('../blue.jpg');
     background-size: cover;
     background-blend-mode: darken;
     
@@ -86,11 +86,6 @@ html {
     width: 300px;
     border-radius: 100%;
     transition: all 0.3s ease-in-out;
-}
-.firsthalf img:hover {
-    transform: scale(1.07);
-    box-shadow: 0 0 40px rgb(173, 192, 255);
-
 }
 .secondhalf {
     display: flex;
@@ -283,7 +278,7 @@ html {
 .burger{
     position: absolute;
     right: 5%;
-    top: 15px;
+    top: 7px;
     display: none;
     background-color: rgb(15, 15, 68);
 }
@@ -348,6 +343,15 @@ html {
       text-align: center;
       justify-content: center;
       align-items: center;
+      font-size: 24px;
+      padding-bottom: 20px;
+  }
+  .list li{
+      border: solid 1px rgb(11, 7, 27);
+      border-radius: 15px;
+      background: rgba(2, 8, 20, 0.1);
+      margin: 10px;
+      padding: 10px;
   }
   .head{
     text-align: center;
@@ -385,7 +389,7 @@ html {
         display: block;
     }
     .h-nav-resp{
-        height: 62px;
+        height: 46px;
     }
     .v-class-resp{
         opacity: 0;
@@ -432,5 +436,11 @@ html {
     .back2{
         padding-top: 20px;
         height: auto;
+    }
+    .facilities{
+        font-size: 18px;
+    }
+    .head{
+      font-size: 52px;
     }
 }
